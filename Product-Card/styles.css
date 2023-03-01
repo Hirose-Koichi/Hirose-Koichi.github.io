@@ -1,0 +1,78 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(30, 38%, 92%);
+    text-align: center;
+    font-weight: 500;
+    margin: 3.5% 20% 0%;
+}
+
+div{
+    display: inline-block;
+}
+
+img{
+    border-radius: 25px 0 0 25px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h1{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+p, span{
+    font-size: 14px;
+}
+
+.row{
+    display: flex;
+}
+
+.left{
+    border-radius: 25px 0 0 25px;
+    padding: 0;
+}
+
+.right{
+    border-radius: 0 25px 25px 0;
+    background-color: #fff;
+    text-align: left;
+    padding: 5% 10% 5% 5%;
+}
+
+.desc{
+    padding: 10% 0;
+}
+
+.title{
+    letter-spacing: 7px;
+}
+
+.prices{
+    display: block;
+}
+
+.price{
+    display: inline-block;
+    color: hsl(158, 36%, 37%);
+}
+
+.oldprice{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    padding: 3%;
+    position: relative;
+    margin: 5%;
+    width: 100%;
+    margin-top: 20%;
+}
+
+button:hover{
+    background-color: hsla(158, 36%, 37%, 100);
+}
