@@ -1,0 +1,223 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-image: linear-gradient(#ffffff 0%, #f0f1ff 100%);
+    padding: 0;
+    margin: 0;
+}
+
+.btnhead{
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    background-color: #13183E;
+    color: #fff;
+    z-index: 2;
+}
+
+.btnhead:hover{
+    opacity: 0.6;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1.5rem 10rem 0 10rem;
+}
+
+header{
+    overflow: hidden;
+}
+
+.row{
+    margin: 0;
+}
+
+.intro{
+    margin: 0;
+    padding: 1.5rem 10rem 0 10rem;
+}
+
+.logodark{
+    height: 100%;
+}
+
+.imgtitle{
+    position: relative;
+    top: -15rem;    
+}
+
+.imghead{
+    position: absolute;
+    z-index: 1;
+}
+
+.introtxt{
+    text-align: left;
+    line-height: 1.5;
+    padding: 10rem 0 0 0;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 4rem;
+    color: hsla(234, 53%, 16%, 1);
+}
+
+.intordesc{
+    color:hsla(233, 10%, 56%, 1);
+    padding-top: 2rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+    font-size: 17px;
+}
+
+.styledbtn{
+    background-image: linear-gradient(#ff6f48 0.04%, #f02aa6 100%);
+    border: none;
+}
+
+.styledbtn:hover{
+    opacity: 0.6;
+}
+
+.description, .animation, .business, .crypto, .design, .photography{
+    text-align: left;
+    position: relative;
+    background-color: #fff;
+    border-radius: 0.625rem;
+    padding: 3rem;
+    margin: 0 1rem 4rem 1rem;
+    max-width: 21.875rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    color: hsla(233, 10%, 56%, 1);
+}
+
+.cardss{
+    z-index: 1;
+    margin-top: -10rem;
+}
+
+.cards{
+    justify-content: center;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #000;
+}
+
+.description{
+    color: #fff;
+    background-image: linear-gradient(#ff6f48 0.04%, #f02aa6 100%);
+}
+
+.cardimg{
+    margin-top: -5rem;
+    margin-bottom: 2rem;
+}
+
+.carddesc{
+    padding-bottom: 2rem;
+}
+
+.cardlink{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 600;
+    bottom: 2rem;
+    color: hsla(341, 92%, 62%, 1);
+}
+
+a:link{
+    text-decoration: none;
+}
+
+
+a:visited{
+    text-decoration: none;
+}
+
+
+a:hover{
+    color: hsla(341, 92%, 62%, 1);
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+
+a:active{
+    text-decoration: none;
+}
+
+.bottom{
+    margin-top: 8.75rem;
+    padding: 2rem 10.3125rem;
+    background-color: hsla(234, 53%, 16%, 1);
+}
+
+.btnbottom{
+    background-image: linear-gradient(180deg, #4851ff 0%, #f02aa6 99.92%);
+}
+
+
+
+@media (max-width: 1160px){
+    .head{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .intro{
+        padding-top: 0;
+        padding-left: 5rem;
+    }
+
+    .imgtitle{
+        top: -5rem;
+        left: 3rem;
+    }
+
+    h1{
+        font-size: 2.2rem;
+    }
+
+    .cardss{
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 780px){
+    .head{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .intro{
+        padding-top: 0;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .introduction{
+        z-index: -1;
+        margin-top: -5rem;
+    }
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    .imgtitle{
+        top: 0;
+        left: 0;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
