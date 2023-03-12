@@ -1,0 +1,125 @@
+:root{
+    --white: hsl(0, 0%, 100%);
+    --lightgrey: hsl(217, 12%, 63%);
+    --mediumgrey: hsla(216, 12%, 54%, 0.205);
+    --darkblue: hsl(213, 19%, 18%);
+    --verydarkblue: hsl(216, 12%, 8%);
+    --orange: hsl(25, 97%, 53%);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: var(--verydarkblue);
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border-radius: 1.5rem;
+    background-color: var(--darkblue);
+    padding: 1.9rem;
+    margin: 2rem auto;
+    width: 400px;
+}
+
+.star{
+    border-radius: 50%;
+    padding: 1rem;  
+    background-color: var(--mediumgrey);
+}
+
+h1{
+    color: var(--white);
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+p{
+    color: var(--lightgrey);
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.ratings{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.3rem 0;
+}
+
+.btn{
+    border-radius: 50%;
+    background-color: var(--mediumgrey);
+    color: var(--lightgrey);
+    font-weight: bold;
+    padding: 0.8rem 1.2rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.btn:active{
+    background-color: var(--lightgrey);
+    color: var(--white);
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.submitbtn{
+    border: none;
+    border-radius: 2rem;
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 0.8rem;
+    margin-top: 1.2rem;
+    letter-spacing: 4px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: 700
+}
+
+.submitbtn:active{
+    background-color: var(--white);
+    color: var(--orange);
+}
+
+.thankyou{
+    display: none;
+}
+
+
+.thankyou{
+    text-align: center;
+}
+
+.thankyou img{
+    margin-bottom: 1.3rem;
+}
+
+.selection{
+    margin-bottom: 2rem;
+}
+
+.rating{
+    border-radius: 1rem;
+    color: var(--orange);
+    background-color: var(--mediumgrey);
+    padding: 0.4rem 1.7rem;
+}
+
+.selected{
+    background-color: var(--lightgrey);
+    color: var(--white);
+}
