@@ -6,6 +6,7 @@ let level = 0,
 
 $(document).on('keypress',function(e) {
     if(gamePattern.length == 0){
+        startOver();
         nextSequence();
         $("h1").text("level "+level);
     }
